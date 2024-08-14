@@ -37,7 +37,6 @@ man3_MANS = man/man3/Judy \
 	    man/man3/Judy1ByCount \
 	    man/man3/Judy1FreeArray \
 	    man/man3/Judy1MemUsed \
-	    man/man3/JudyL \
 	    man/man3/JLG \
 	    man/man3/JLI \
 	    man/man3/JLD \
