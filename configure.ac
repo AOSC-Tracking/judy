@@ -201,11 +201,7 @@ AC_ARG_ENABLE(64-bit, [  --enable-64-bit          Generate code for a 64-bit env
               b64="$enableval", b64="no")
 if test x"$b64" != "xno"; then
     AC_MSG_RESULT(Configured to Building 64-bit)
-    if test x"$GCC" = xyes; then
-      CFLAGS="-DJU_64BIT -m64 $CFLAGS"
-    else
-      CFLAGS="-DJU_64BIT $CFLAGS"
-    fi
+    CFLAGS="-DJU_64BIT $CFLAGS"
 fi
 
 
